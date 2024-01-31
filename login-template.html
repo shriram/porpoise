@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+@|warning-comment|
+
+<head>
+  <title>Purpose Statement Evaluator: Login</title>
+
+  <style>
+
+.vertical-space { padding-bottom: 20px; }
+
+  </style>
+
+</head>
+
+<body>
+
+<p align="center">
+<img src="/logo.png" alt="Porpoise Logo">
+</p>
+
+<div class="vertical-space"/>
+
+<p align="center" style="color: red">
+@|login-text-to-display|
+</p>
+
+<div align="center">
+    <form action="@|k-url|">
+    @|name-for-login-token|: <input type="text" id="uid" name="uid" value="@(xml-attribute-encode init-id)">&nbsp;&nbsp;<input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+
+</html>

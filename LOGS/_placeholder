@@ -1,0 +1,13 @@
+This file only exists because
+
+- you can't check an empty folder into a git repoistory
+- you need this folder to store the logs
+- not having it in the repository would have meant one more configuration step
+
+Obviously, this file will be overridden if you ever have a user named `_placeholder`. But that's fine, you don't need to be reading this.
+
+Why are you reading this?
+
+Why are you *still* reading this?
+
+oktxbye
